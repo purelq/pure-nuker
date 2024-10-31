@@ -20,27 +20,28 @@ lowercase = True
 Y = Fore.YELLOW
 fadeclr = pystyle.Colors.blue_to_white
 
-toolname = 'Pure Nuker'
+toolname = 'Veil Nuker'
 toolversion = '1.0.0'
 
 banner = f'''
 
-                $$$$$$$\                                
-                $$  __$$\                               
-                $$ |  $$ |$$\   $$\  $$$$$$\   $$$$$$\  
-                $$$$$$$  |$$ |  $$ |$$  __$$\ $$  __$$\ 
-                $$  ____/ $$ |  $$ |$$ |  \__|$$$$$$$$ |
-                $$ |      $$ |  $$ |$$ |      $$   ____|
-                $$ |      \$$$$$$  |$$ |      \$$$$$$$\ 
-                \__|       \______/ \__|       \_______|
-                                                                                                                                                                                      
+                 /$$    /$$          /$$ /$$
+                | $$   | $$         |__/| $$
+                | $$   | $$ /$$$$$$  /$$| $$
+                |  $$ / $$//$$__  $$| $$| $$
+                 \  $$ $$/| $$$$$$$$| $$| $$
+                  \  $$$/ | $$_____/| $$| $$
+                   \  $/  |  $$$$$$$| $$| $$
+                    \_/    \_______/|__/|__/
+                            
+                                                                                                                                                                                                              
     ______________________________________________________________________
 
 '''
 
 global g, r, y
 
-imageurl = 'https://cdn.discordapp.com/attachments/1300946336996397180/1300946400502222958/Kepernyokep_2024-10-28_223209-removebg-preview.png?ex=6722b040&is=67215ec0&hm=c9dbf59ff1c278533692e159442c59e1ad17f45befa7f5d21bd2c80787e78ac1&'
+imageurl = 'https://cdn.discordapp.com/attachments/1300946336996397180/1301639467219554367/Kepernyokep_2024-10-31_113416-removebg-preview.png?ex=672535b8&is=6723e438&hm=62cd832c9008d1abd48cc857e47a79fdfab1f86ef75029123a3ea66f689e0c18&'
 
 g = 'green'
 r = 'red'
@@ -347,7 +348,7 @@ async def massdm(ctx):
         msgs = [f'You got fucked by {name} :)', f'{name} runs you', f'{name} fucked you up', f'{name} nuked a server you were in :)', f'Cop {name} today!', f'{name} is the best']
         if member != bot.user:
             try:
-                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/stitchv1')
+                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/veilgg)
                 log(g, f"Sent DM to {member.name} ({member.id})")
             except discord.HTTPException as e: 
                 if e.status == 429: 
@@ -387,7 +388,7 @@ async def spam(ctx):
                     embed.set_author(name=toolname)
                     embed.set_footer(text='Powered by ' + toolname)
                     embed.set_thumbnail(url=imageurl)
-                    await channel.send('@everyone ' + 'https://discord.gg/stitchv1', embed=embed)
+                    await channel.send('@everyone ' + 'https://discord.gg/veilgg', embed=embed)
                     log(g, f"Sent message to #{channel.name}")
                 except:
                     log(r, f"send message to #{channel.name}")
@@ -441,7 +442,7 @@ async def nuke(ctx):
                 "color": 955,
                 "title": f"{ctx.guild.name}",
                 "footer": {
-                    "text": "Powered by Stitch Nuker"
+                    "text": "Powered by Veil Nuker"
                 }
                 }
             ],
@@ -529,7 +530,7 @@ async def nuke(ctx):
         msgs = [f'You got fucked by {name} :)', f'{name} runs you', f'{name} fucked you up', f'{name} nuked a server you were in :)', f'Cop {name} today!', f'{name} is the best']
         if member != bot.user:
             try:
-                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/stitchv1')
+                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/veilgg')
                 log(g, f"Sent DM to {member.name} ({member.id})")
             except discord.HTTPException as e: 
                 if e.status == 429: 
@@ -561,7 +562,7 @@ async def on_guild_channel_create(channel):
                 embed.set_author(name=toolname)
                 embed.set_footer(text='Powered by ' + toolname)
                 embed.set_thumbnail(url=imageurl)
-                await channel.send('@everyone ' + 'https://discord.gg/stitchv1', embed=embed)
+                await channel.send('@everyone ' + 'https://discord.gg/veilgg', embed=embed)
                 log(g, f"Sent message to #{channel.name}")
             except discord.HTTPException as e:
                 if e.status == 429:
