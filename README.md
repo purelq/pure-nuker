@@ -22,4 +22,5 @@ For more support > https://discord.gg/Nr8DkT3G
 
 # 📷 : Preview
 
-![yep](https://github.com/user-attachments/assets/79e47206-6ac7-4b24-8606-c0eeea1d1000)
+![image](https://github.com/user-attachments/assets/34abb939-cf39-436d-8382-f0d01a500cfe)
+
