@@ -21,6 +21,4 @@ Educational purposes only.
 For more support > https://discord.gg/Nr8DkT3G
 
 # 📷 : Preview
-
-![image](https://github.com/user-attachments/assets/34abb939-cf39-436d-8382-f0d01a500cfe)
-
+![Untitled image (30)](https://github.com/user-attachments/assets/e7df09c7-92b1-4ada-ab51-48069ee95c2f)
