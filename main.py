@@ -348,7 +348,7 @@ async def massdm(ctx):
         msgs = [f'You got fucked by {name} :)', f'{name} runs you', f'{name} fucked you up', f'{name} nuked a server you were in :)', f'Cop {name} today!', f'{name} is the best']
         if member != bot.user:
             try:
-                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/veilgg)
+                await member.send(f'<@{member.id}> ' + dm_message + '\nhttps://discord.gg/veilgg')
                 log(g, f"Sent DM to {member.name} ({member.id})")
             except discord.HTTPException as e: 
                 if e.status == 429: 
