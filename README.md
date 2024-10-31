@@ -1,8 +1,12 @@
+<h3 align="center">Veil Nuker</h3>
 
-# Pure Nuker
-Pure nuker is a free, fast discord server nuker.
+# ❗ : Warning
 Educational purposes only.
 
+# 🔨 : Bot Setup
+1. Go to the [Discord Developers Applications](https://discord.com/developers/applications)
+2. Create your application
+3. Enable all bot intent
 
 # ✍ : Tutorial
 
